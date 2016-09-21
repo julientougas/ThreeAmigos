@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F9804D8A1D91E0D0001631F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9804D891D91E0D0001631F0 /* AppDelegate.swift */; };
-		F9804D8C1D91E0D0001631F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9804D8B1D91E0D0001631F0 /* ViewController.swift */; };
 		F9804D8F1D91E0D0001631F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9804D8D1D91E0D0001631F0 /* Main.storyboard */; };
 		F9804D911D91E0D0001631F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9804D901D91E0D0001631F0 /* Assets.xcassets */; };
 		F9804D941D91E0D0001631F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9804D921D91E0D0001631F0 /* LaunchScreen.storyboard */; };
+		F9804D9C1D92CD52001631F0 /* MascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9804D9B1D92CD52001631F0 /* MascotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9804D861D91E0D0001631F0 /* Three Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Amigos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9804D891D91E0D0001631F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9804D8B1D91E0D0001631F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9804D8E1D91E0D0001631F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9804D901D91E0D0001631F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9804D931D91E0D0001631F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9804D951D91E0D0001631F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9804D9B1D92CD52001631F0 /* MascotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MascotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				F9804D891D91E0D0001631F0 /* AppDelegate.swift */,
-				F9804D8B1D91E0D0001631F0 /* ViewController.swift */,
 				F9804D8D1D91E0D0001631F0 /* Main.storyboard */,
 				F9804D901D91E0D0001631F0 /* Assets.xcassets */,
 				F9804D921D91E0D0001631F0 /* LaunchScreen.storyboard */,
 				F9804D951D91E0D0001631F0 /* Info.plist */,
+				F9804D9B1D92CD52001631F0 /* MascotViewController.swift */,
 			);
 			path = "Three Amigos";
 			sourceTree = "<group>";
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9804D8C1D91E0D0001631F0 /* ViewController.swift in Sources */,
 				F9804D8A1D91E0D0001631F0 /* AppDelegate.swift in Sources */,
+				F9804D9C1D92CD52001631F0 /* MascotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
